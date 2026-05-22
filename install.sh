@@ -73,8 +73,6 @@ install_ucm "m2172/StereoSpeaker.conf" \
 	"/usr/share/alsa/ucm2/m2172/StereoSpeaker.conf"
 install_ucm "conf.d/sm8250/meizu-m2172-sndcard.conf" \
 	"/usr/share/alsa/ucm2/conf.d/sm8250/meizu-m2172-sndcard.conf"
-install_ucm "wireplumber/main.lua.d/51-m2172-use-ucm.lua" \
-	"/etc/wireplumber/main.lua.d/51-m2172-use-ucm.lua"
 
 if [ -z "$destdir" ]; then
 	cat <<'EOF'
