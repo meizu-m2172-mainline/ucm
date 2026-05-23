@@ -73,6 +73,8 @@ install_ucm "m2172/StereoSpeaker.conf" \
 	"/usr/share/alsa/ucm2/m2172/StereoSpeaker.conf"
 install_ucm "conf.d/sm8250/meizu-m2172-sndcard.conf" \
 	"/usr/share/alsa/ucm2/conf.d/sm8250/meizu-m2172-sndcard.conf"
+install_ucm "wireplumber/wireplumber.conf.d/51-bluez-hfp.conf" \
+	"/etc/wireplumber/wireplumber.conf.d/51-bluez-hfp.conf"
 
 if [ -z "$destdir" ]; then
 	cat <<'EOF'
